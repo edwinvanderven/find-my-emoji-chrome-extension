@@ -243,6 +243,14 @@ const EMOJIS = [
     k: "shaking face",
   },
   {
+    e: "🙂‍↔️",
+    k: "head shaking horizontally",
+  },
+  {
+    e: "🙂‍↕️",
+    k: "head shaking vertically",
+  },
+  {
     e: "😌",
     k: "relieved face",
   },
@@ -261,6 +269,10 @@ const EMOJIS = [
   {
     e: "😴",
     k: "sleeping face",
+  },
+  {
+    e: "🫩",
+    k: "face with bags under eyes",
   },
   {
     e: "😷",
@@ -972,7 +984,7 @@ const EMOJIS = [
   },
   {
     e: "👱",
-    k: "person blond hair",
+    k: "person: blond hair",
   },
   {
     e: "👨",
@@ -980,31 +992,31 @@ const EMOJIS = [
   },
   {
     e: "🧔",
-    k: "person beard",
+    k: "person: beard",
   },
   {
     e: "🧔‍♂️",
-    k: "man beard",
+    k: "man: beard",
   },
   {
     e: "🧔‍♀️",
-    k: "woman beard",
+    k: "woman: beard",
   },
   {
     e: "👨‍🦰",
-    k: "man red hair",
+    k: "man: red hair",
   },
   {
     e: "👨‍🦱",
-    k: "man curly hair",
+    k: "man: curly hair",
   },
   {
     e: "👨‍🦳",
-    k: "man white hair",
+    k: "man: white hair",
   },
   {
     e: "👨‍🦲",
-    k: "man bald",
+    k: "man: bald",
   },
   {
     e: "👩",
@@ -1012,43 +1024,43 @@ const EMOJIS = [
   },
   {
     e: "👩‍🦰",
-    k: "woman red hair",
+    k: "woman: red hair",
   },
   {
     e: "🧑‍🦰",
-    k: "person red hair",
+    k: "person: red hair",
   },
   {
     e: "👩‍🦱",
-    k: "woman curly hair",
+    k: "woman: curly hair",
   },
   {
     e: "🧑‍🦱",
-    k: "person curly hair",
+    k: "person: curly hair",
   },
   {
     e: "👩‍🦳",
-    k: "woman white hair",
+    k: "woman: white hair",
   },
   {
     e: "🧑‍🦳",
-    k: "person white hair",
+    k: "person: white hair",
   },
   {
     e: "👩‍🦲",
-    k: "woman bald",
+    k: "woman: bald",
   },
   {
     e: "🧑‍🦲",
-    k: "person bald",
+    k: "person: bald",
   },
   {
     e: "👱‍♀️",
-    k: "woman blond hair",
+    k: "woman: blond hair",
   },
   {
     e: "👱‍♂️",
-    k: "man blond hair",
+    k: "man: blond hair",
   },
   {
     e: "🧓",
@@ -1524,7 +1536,7 @@ const EMOJIS = [
   },
   {
     e: "🧑‍🎄",
-    k: "mx claus",
+    k: "Mx Claus",
   },
   {
     e: "🦸",
@@ -1675,6 +1687,18 @@ const EMOJIS = [
     k: "woman walking",
   },
   {
+    e: "🚶‍➡️",
+    k: "person walking facing right",
+  },
+  {
+    e: "🚶‍♀️‍➡️",
+    k: "woman walking facing right",
+  },
+  {
+    e: "🚶‍♂️‍➡️",
+    k: "man walking facing right",
+  },
+  {
     e: "🧍",
     k: "person standing",
   },
@@ -1699,40 +1723,88 @@ const EMOJIS = [
     k: "woman kneeling",
   },
   {
+    e: "🧎‍➡️",
+    k: "person kneeling facing right",
+  },
+  {
+    e: "🧎‍♀️‍➡️",
+    k: "woman kneeling facing right",
+  },
+  {
+    e: "🧎‍♂️‍➡️",
+    k: "man kneeling facing right",
+  },
+  {
     e: "🧑‍🦯",
     k: "person with white cane",
+  },
+  {
+    e: "🧑‍🦯‍➡️",
+    k: "person with white cane facing right",
   },
   {
     e: "👨‍🦯",
     k: "man with white cane",
   },
   {
+    e: "👨‍🦯‍➡️",
+    k: "man with white cane facing right",
+  },
+  {
     e: "👩‍🦯",
     k: "woman with white cane",
+  },
+  {
+    e: "👩‍🦯‍➡️",
+    k: "woman with white cane facing right",
   },
   {
     e: "🧑‍🦼",
     k: "person in motorized wheelchair",
   },
   {
+    e: "🧑‍🦼‍➡️",
+    k: "person in motorized wheelchair facing right",
+  },
+  {
     e: "👨‍🦼",
     k: "man in motorized wheelchair",
+  },
+  {
+    e: "👨‍🦼‍➡️",
+    k: "man in motorized wheelchair facing right",
   },
   {
     e: "👩‍🦼",
     k: "woman in motorized wheelchair",
   },
   {
+    e: "👩‍🦼‍➡️",
+    k: "woman in motorized wheelchair facing right",
+  },
+  {
     e: "🧑‍🦽",
     k: "person in manual wheelchair",
+  },
+  {
+    e: "🧑‍🦽‍➡️",
+    k: "person in manual wheelchair facing right",
   },
   {
     e: "👨‍🦽",
     k: "man in manual wheelchair",
   },
   {
+    e: "👨‍🦽‍➡️",
+    k: "man in manual wheelchair facing right",
+  },
+  {
     e: "👩‍🦽",
     k: "woman in manual wheelchair",
+  },
+  {
+    e: "👩‍🦽‍➡️",
+    k: "woman in manual wheelchair facing right",
   },
   {
     e: "🏃",
@@ -1745,6 +1817,18 @@ const EMOJIS = [
   {
     e: "🏃‍♀️",
     k: "woman running",
+  },
+  {
+    e: "🏃‍➡️",
+    k: "person running facing right",
+  },
+  {
+    e: "🏃‍♀️‍➡️",
+    k: "woman running facing right",
+  },
+  {
+    e: "🏃‍♂️‍➡️",
+    k: "man running facing right",
   },
   {
     e: "💃",
@@ -2035,10 +2119,6 @@ const EMOJIS = [
     k: "couple with heart woman, woman",
   },
   {
-    e: "👪",
-    k: "family",
-  },
-  {
     e: "👨‍👩‍👦",
     k: "family man, woman, boy",
   },
@@ -2155,8 +2235,32 @@ const EMOJIS = [
     k: "people hugging",
   },
   {
+    e: "👪",
+    k: "family",
+  },
+  {
+    e: "🧑‍🧑‍🧒",
+    k: "family adult, adult, child",
+  },
+  {
+    e: "🧑‍🧑‍🧒‍🧒",
+    k: "family adult, adult, child, child",
+  },
+  {
+    e: "🧑‍🧒",
+    k: "family adult, child",
+  },
+  {
+    e: "🧑‍🧒‍🧒",
+    k: "family adult, child, child",
+  },
+  {
     e: "👣",
     k: "footprints",
+  },
+  {
+    e: "🫆",
+    k: "fingerprint",
   },
   {
     e: "🐵",
@@ -2507,6 +2611,10 @@ const EMOJIS = [
     k: "goose",
   },
   {
+    e: "🐦‍🔥",
+    k: "phoenix",
+  },
+  {
     e: "🐸",
     k: "frog",
   },
@@ -2589,6 +2697,26 @@ const EMOJIS = [
   {
     e: "🪼",
     k: "jellyfish",
+  },
+  {
+    e: "🦀",
+    k: "crab",
+  },
+  {
+    e: "🦞",
+    k: "lobster",
+  },
+  {
+    e: "🦐",
+    k: "shrimp",
+  },
+  {
+    e: "🦑",
+    k: "squid",
+  },
+  {
+    e: "🦪",
+    k: "oyster",
   },
   {
     e: "🐌",
@@ -2767,6 +2895,10 @@ const EMOJIS = [
     k: "mushroom",
   },
   {
+    e: "🪾",
+    k: "leafless tree",
+  },
+  {
     e: "🍇",
     k: "grapes",
   },
@@ -2785,6 +2917,10 @@ const EMOJIS = [
   {
     e: "🍋",
     k: "lemon",
+  },
+  {
+    e: "🍋‍🟩",
+    k: "lime",
   },
   {
     e: "🍌",
@@ -2909,6 +3045,14 @@ const EMOJIS = [
   {
     e: "🫛",
     k: "pea pod",
+  },
+  {
+    e: "🍄‍🟫",
+    k: "brown mushroom",
+  },
+  {
+    e: "🫜",
+    k: "root vegetable",
   },
   {
     e: "🍞",
@@ -3113,26 +3257,6 @@ const EMOJIS = [
   {
     e: "🥡",
     k: "takeout box",
-  },
-  {
-    e: "🦀",
-    k: "crab",
-  },
-  {
-    e: "🦞",
-    k: "lobster",
-  },
-  {
-    e: "🦐",
-    k: "shrimp",
-  },
-  {
-    e: "🦑",
-    k: "squid",
-  },
-  {
-    e: "🦪",
-    k: "oyster",
   },
   {
     e: "🍦",
@@ -4815,6 +4939,10 @@ const EMOJIS = [
     k: "flute",
   },
   {
+    e: "🪉",
+    k: "harp",
+  },
+  {
     e: "📱",
     k: "mobile phone",
   },
@@ -5343,6 +5471,10 @@ const EMOJIS = [
     k: "link",
   },
   {
+    e: "⛓️‍💥",
+    k: "broken chain",
+  },
+  {
     e: "⛓️",
     k: "chains",
   },
@@ -5361,6 +5493,10 @@ const EMOJIS = [
   {
     e: "🪜",
     k: "ladder",
+  },
+  {
+    e: "🪏",
+    k: "shovel",
   },
   {
     e: "⚗️",
@@ -6103,6 +6239,10 @@ const EMOJIS = [
     k: "trade mark",
   },
   {
+    e: "🫟",
+    k: "splatter",
+  },
+  {
     e: "#️⃣",
     k: "keycap #",
   },
@@ -6681,6 +6821,10 @@ const EMOJIS = [
   {
     e: "🇨🇵",
     k: "flag Clipperton Island",
+  },
+  {
+    e: "🇨🇶",
+    k: "flag Sark",
   },
   {
     e: "🇨🇷",
@@ -7404,7 +7548,7 @@ const EMOJIS = [
   },
   {
     e: "🇹🇷",
-    k: "flag Turkey",
+    k: "flag Türkiye",
   },
   {
     e: "🇹🇹",
